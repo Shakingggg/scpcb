@@ -25,7 +25,7 @@ Const EASY = 0, NORMAL = 1, HARD = 2
 
 difficulties(SAFE) = New Difficulty
 difficulties(SAFE)\name = "Safe"
-difficulties(SAFE)\description ="The game can be saved any time. However, as in the case of SCP Objects, a Safe classification does not mean that handling it does not pose a threat."
+difficulties(SAFE)\description ="La partie peut être sauvegardée à n'importe quel moment. However, as in the case of SCP Objects, a Safe classification does not mean that handling it does not pose a threat."
 difficulties(SAFE)\permaDeath = False
 difficulties(SAFE)\aggressiveNPCs = False
 difficulties(SAFE)\saveType = SAVEANYWHERE
@@ -59,7 +59,7 @@ difficulties(KETER)\g = 0
 difficulties(KETER)\b = 0
 
 difficulties(CUSTOM) = New Difficulty
-difficulties(CUSTOM)\name = "Custom"
+difficulties(CUSTOM)\name = "Personnalisée"
 difficulties(CUSTOM)\permaDeath = False
 difficulties(CUSTOM)\aggressiveNPCs = True
 difficulties(CUSTOM)\saveType = SAVEANYWHERE
